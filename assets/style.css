@@ -24,3 +24,11 @@ textarea {
 #searchBtn {
     margin-bottom: 10px;
 }
+
+/* Display Side */
+
+.forecast {
+    background-color: #323d4f;
+    color:white;
+    
+}
