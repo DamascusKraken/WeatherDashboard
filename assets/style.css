@@ -1,0 +1,26 @@
+main {
+    margin-left: 10px;
+}
+h1 {
+    background: rgb(0,67,255);
+background: linear-gradient(90deg, rgba(0,67,255,1) 0%, rgba(37,56,190,1) 29%, rgba(2,0,36,1) 100%);
+    color: white;
+}
+
+aside {
+    
+}
+
+.searchContainer {
+    border-color: #8d8a8a;
+}
+textarea {
+    border-color: gray;
+    border-radius: 5px;
+    border-width: 1.5px;
+    
+}
+
+#searchBtn {
+    margin-bottom: 10px;
+}
