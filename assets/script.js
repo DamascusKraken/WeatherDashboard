@@ -64,9 +64,14 @@ var userInput = $('#cityName');
 searchBtn.click(function(){
     var location = userInput.val();
     console.log(location);
-    userInput.text(" ");
     
-    //return location;
+    var searchListItem = $('<button class = "col-12 bg-primary text-white text-center rounded ps-0">');
+        searchListItem.text(location);
+
+    var searchList = $('#searchList');
+
+    searchList.append(searchListItem);
+    
 
     fetchCoords(location);
 });

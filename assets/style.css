@@ -7,12 +7,12 @@ background: linear-gradient(90deg, rgba(0,67,255,1) 0%, rgba(37,56,190,1) 29%, r
     color: white;
 }
 
-aside {
-    
-}
-
 .searchContainer {
     border-color: #8d8a8a;
+}
+
+ul {
+    list-style-type: none;
 }
 textarea {
     border-color: gray;
